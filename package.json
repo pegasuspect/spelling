@@ -1,0 +1,29 @@
+{
+  "name": "spelling",
+  "version": "1.0.0",
+  "description": "A simple speller for people having difficulty finding words.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pegasuspect/spelling.git"
+  },
+  "keywords": [
+    "words",
+    "spelling",
+    "letters",
+    "as",
+    "in"
+  ],
+  "author": "pegasuspect",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pegasuspect/spelling/issues"
+  },
+  "homepage": "https://github.com/pegasuspect/spelling#readme",
+  "dependencies": {
+    "colors": "^1.3.3"
+  }
+}
