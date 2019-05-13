@@ -1,6 +1,9 @@
 # spelling
 A simple speller for people having difficulty finding words.
 
+## Dependencies
+Expected installed programs are GIT, NPM, nodeJS.
+
 ### Intended use
 This code is intended to be used in terminal/command line/bash in unix systems.
 
