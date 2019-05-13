@@ -41,7 +41,13 @@ rl.on('line', function(line){
 	lines.forEach(line => {
 		console.log(line.split('').
 			map(c => c.toLowerCase()).
-			map(char => dict[char] ? `${char.toUpperCase().underline.red} as in ${dict[char].inverse}` : `${char}`).
+			map(char => {
+				if(dict[char]){
+					let [first, ...rest] = dict[char].split('')
+					return `${char.toUpperCase().bold.red} as in ${first.bold.underline}${rest.join('').underline}`
+				}
+				return char
+			}).
 			join('\t')
 		);
 	})
