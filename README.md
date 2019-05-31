@@ -1,6 +1,8 @@
 # spelling
 A simple speller for people having difficulty finding words.
 
+[![asciicast](https://asciinema.org/a/249458.svg)](https://asciinema.org/a/249458)
+
 ## Dependencies
 Expected installed programs are GIT, NPM, nodeJS.
 
