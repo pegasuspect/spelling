@@ -37,9 +37,9 @@ let rl = readline.createInterface({
 });
 
 rl.on('line', function(line){
-	let lines = line.split(' ')
-	lines.forEach(line => {
-		console.log(line.split('').
+	let args = line.replace(/[^\w\s!?]/g,' ').split(' ')
+	args.forEach(word => {
+		console.log(word.split('').
 			map(c => c.toLowerCase()).
 			map(char => {
 				if(dict[char]){
