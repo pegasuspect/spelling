@@ -19,6 +19,7 @@ npm install
 echo 'test' | node index.js
 echo 'Philanthropy' | node index.js
 echo 'Name Lastname' | node index.js
+echo 'test@spelling.com' | node index.js
 ```
 
 You may also define a bash method, like an alias to call from. Such as:
